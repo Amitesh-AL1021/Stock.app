@@ -10,7 +10,8 @@ st.set_page_config(layout="wide", page_title="ROPHI ANALYTICS")
 from PIL import Image
 
 # Load local image
-image = Image.open(r"C:\Users\Rohan\PycharmProjects\Stock_Prediction\image\image.png")
+image = Image.open("image.png")
+
 
 # Display header section
 col1, col2, col3 = st.columns([1, 2, 1])
